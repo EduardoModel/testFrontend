@@ -10,3 +10,7 @@ and the other systems that are integrated with the application, like:
 * calls to an external API utilizing Mocks ([Axios library](https://github.com/axios/axios));
 * if the actions and the reducers were been called ([React Redux](https://react-redux.js.org/));
 * if the side effects of the sagas were been called ([Redux-Saga](https://redux-saga.js.org/));
+
+All the tests are located inside the folder __tests__ and they contain descriptions
+about what is been doing there and the reason for it. For example why some behavior is been
+mocked and how its done.
